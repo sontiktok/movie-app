@@ -3,7 +3,7 @@ import FeatureMovies from "./components/FeatureMovies";
 import MediaList from "./components/MediaList";
 import { TOP_RATED_TABS, TRENDING_TABS } from "./libs/constants";
 
-function App() {
+function HomePage() {
   return (
     <div>
       <Header />
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
